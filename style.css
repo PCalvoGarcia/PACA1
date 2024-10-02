@@ -1,0 +1,30 @@
+header {
+    background-color: #ff7f99;
+    height: 100px;
+}
+
+body {
+    background-color: yellow;
+
+}
+
+main {
+    background-color: white;
+    height: 500px;
+}
+
+footer {
+background-color: #ff7f99;
+height: 300px;
+
+}
+
+#navbar {
+
+}
+
+#navbarul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
