@@ -1,4 +1,10 @@
 header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
     background-color: #ff7f99;
     height: 100px;
 }
@@ -19,12 +25,18 @@ height: 300px;
 
 }
 
-#navbar {
 
-}
-
-#navbarul {
+#navbar ul {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
+    
+    
 }
+#navbar{
+    border: solid black 1px;
+
+
+}
+
+
