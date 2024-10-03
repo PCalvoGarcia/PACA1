@@ -22,28 +22,27 @@ background-color: #ff7f99;
 height: 300px;
 }
 
-   #logo a {
-    font-size: 60px;
-   text-decoration: none;
-   font-family: sans-serif;
-   font-weight: bold;
-   }
-
-img {
-    border: 1px solid white;
-   
+a {
+    display: block;
+    text-decoration: none;
+    color: white;
 }
 
-.crisimg{
+#logo a {
+ font-size: 60px;
+text-decoration: none;
+font-family: sans-serif;
+font-weight: bold;
+}
+
+#crisimg{
     display: flex;
     border-radius: 10px;
     width: 300px;
     height: 300px;
-
 }
 
-
-.nav-ul {
+#nav-ul {
     padding: 10px;
     display: flex;
     align-items:center ;
@@ -53,26 +52,18 @@ img {
     font-family: sans-serif;
 }
 
-a {
-    display: block;
-    text-decoration: none;
-    color: white;
-}
-
-
-/* SECTION */
-
-.ind-flex {
+#flex-container div {
 border: 1px solid black;
 background-color: white;
 width: 200px;
-height: 300px;
+height: 250px;
 border-radius: 10%;
 text-align: center;
 font-family: sans-serif;
+padding-top: 20px;
 }
 
-.flex-container {
+#flex-container {
 border: 0px solid black;
 background-color: #ff7f99;
 display: flex;
@@ -81,7 +72,7 @@ justify-content: space-around;
 }
 
 
-.right-section{
+#right-main{
 
     display: flex;
     align-items: center;
@@ -97,7 +88,7 @@ justify-content: space-around;
    font-size: medium;
 }
 
-.main{
+#main{
     display: flex;
     align-items: center;
     justify-content: space-around;
