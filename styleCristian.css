@@ -1,3 +1,6 @@
+*{
+    font-family: sans-serif;
+}
 header {
     display: flex;
     flex-direction: row;
@@ -18,8 +21,22 @@ main {
 }
 
 footer {
-background-color: #ff7f99;
-height: 300px;
+    background-color: #ff7f99;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    font-size: 0.5em;
+    color: rgba(0, 0, 0, 0.700);
+}
+footer p{
+    margin:1em ;
+}
+footer img{
+    width: 1em;
+    height: 1em;
+    margin-top: 0.5em;
 }
 
 a {
@@ -29,10 +46,9 @@ a {
 }
 
 #logo a {
- font-size: 60px;
-text-decoration: none;
-font-family: sans-serif;
-font-weight: bold;
+    font-size: 60px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 #crisimg{
@@ -49,36 +65,31 @@ font-weight: bold;
     justify-content: space-between ;
     list-style: none;
     gap: 20px;
-    font-family: sans-serif;
 }
 
 #flex-container div {
-border: 1px solid black;
-background-color: white;
-width: 200px;
-height: 250px;
-border-radius: 10%;
-text-align: center;
-font-family: sans-serif;
-padding-top: 20px;
+    background-color: white;
+    width: 200px;
+    height: 250px;
+    border-radius: 10%;
+    text-align: center;
+    padding-top: 20px;
 }
 
 #flex-container {
-border: 0px solid black;
-background-color: #ff7f99;
-display: flex;
-padding: 10px;
-justify-content: space-around;
+    border: 0px solid black;
+    background-color: #ff7f99;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
 }
 
 
 #right-main{
-
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    font-family: sans-serif;
 }
 
 #button{
@@ -92,6 +103,11 @@ justify-content: space-around;
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+#img-main{
+    width: 400px;
+    height: 400px;
 }
 
 #tittle{
