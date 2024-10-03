@@ -3,10 +3,10 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
-
     background-color: #ff7f99;
     height: 100px;
+    padding: 0 100px ;
+    
 }
 
 body {
@@ -25,18 +25,40 @@ height: 300px;
 
 }
 
+    
+   #logo a{
+    font-size: 60px;
+   text-decoration: none;
+   font-family: sans-serif;
+   font-weight: bold;
 
-#navbar ul {
+    
+   }
+
+
+
+
+
+
+.nav-ul{
+    padding: 10px;
+    border: 1px solid black;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    align-items:center ;
+    justify-content: space-between ;
+    list-style: none;
+    gap: 20px;
+    font-family: sans-serif;
+    
+   
+   
     
     
 }
-#navbar{
-    border: solid black 1px;
-
-
+a{
+    display: block;
+    text-decoration: none;
+    color: white;
 }
 
 
