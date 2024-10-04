@@ -16,6 +16,13 @@ Este proyecto consiste en la creación de una página web maquetada con HTML y C
 - **style.css**: Archivo de estilos CSS para `index.html`.
 - **styleCristian.css**: Archivo de estilos CSS para `indexCristian.html`.
 
+## Miembros del Equipo de Proyecto
+Paula Calvo Garcia
+Andrea Celmare
+Cristian Osla López
+Alex Olmos
+Juan ignacio Fauó
+
 ## Instalación
 1. Clona este repositorio en tu máquina local:
    ```bash
@@ -23,6 +30,6 @@ Este proyecto consiste en la creación de una página web maquetada con HTML y C
 
 ## Screnshots
 
-Vista previa de la página
+Vista previa de la página 
 
 ![prev](https://github.com/user-attachments/assets/6c29779c-08f0-4a11-b1de-49b2deedd011)
