@@ -17,11 +17,11 @@ Este proyecto consiste en la creación de una página web maquetada con HTML y C
 - **styleCristian.css**: Archivo de estilos CSS para `indexCristian.html`.
 
 ## Miembros del Equipo de Proyecto
-Paula Calvo Garcia
-Andrea Celmare
-Cristian Osla López
-Alex Olmos
-Juan ignacio Fauó
+- Paula Calvo Garcia 
+- Andrea Celmare
+- Cristian Osla López
+- Alex Monzon
+- Juan ignacio Fauó
 
 ## Instalación
 1. Clona este repositorio en tu máquina local:
